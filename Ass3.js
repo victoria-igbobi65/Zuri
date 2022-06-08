@@ -22,12 +22,12 @@ const recurse = (range = 0) => {
     // base case
     //Checking if user guess is incorrect
     if (userGuess != computerNumber) {
-      console.log(`\n-------------------------  --------------------------\nWrong answer!!! The correct answer is ${computerNumber}\n\nGame Over!!! ${username[0].toUpperCase() + username.slice(1)} you scored ${range - 2} out of the ${range - 1} stages\n\n-------------------------  --------------------------`)
+      console.log(`\n-------------------------  --------------------------\nWrong answer ❌!!! The correct answer is ${computerNumber}\n\nGame Over!!! ${username[0].toUpperCase() + username.slice(1)} you scored ${range - 2} out of the ${range - 1} stages\n\n-------------------------  --------------------------`)
       return
     }
     
     // if user guess is correct call the recurse function
-    console.log("\n--------------> Awesome! You guessed correctly <-------------")
+    console.log("\n--------------> Awesome 👍! You guessed correctly <-------------")
     recurse(range + 1)
   }
   
