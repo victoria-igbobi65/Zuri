@@ -58,7 +58,7 @@ const recurse = (range = 0) => {
       continue;
     }
     else {
-      console.log("\n--------------> EXITING PROGRAM, BYE!!! <-------------")
+      console.log("\n--------------> EXITING PROGRAM, BYE 🖐️!!! <-------------")
       break
     }
   }
